@@ -19,6 +19,9 @@ import './css/general.css';
 
 Amplify.configure(awsmobile);
 
+> aws s3 rm s3://test-hosting-mobilehub-144987786 --recursive
+> aws s3 sync . s3://test-hosting-mobilehub-144987786
+
 require('file-loader?name=[name].[ext]!./index.html');
 require("babel-core/register");
 require("babel-polyfill");
