@@ -18,6 +18,8 @@ import { Authenticator, Greetings } from 'aws-amplify-react';
 import './css/general.css';
 
 Amplify.configure(awsmobile);
+awsmobile run
+awsmobile publish
 
 > aws s3 rm s3://test-hosting-mobilehub-144987786 --recursive
 > aws s3 sync . s3://test-hosting-mobilehub-144987786
