@@ -12,7 +12,7 @@ import { BrowserRouter, Route, Redirect, Link, Switch } from 'react-router-dom';
 import { Button, Card, Row, Col, Navbar, NavItem, Icon } from 'react-materialize';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
 import Main from './Main';
-import awsmobile from './aws-exports';
+import awsmobile from './YOUR-PATH-TO/aws-exports';
 import Amplify from 'aws-amplify';
 import { Authenticator, Greetings } from 'aws-amplify-react';
 import './css/general.css';
